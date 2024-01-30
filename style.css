@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Nunito:wght@300&family=Oswald:wght@200&family=Rowdies:wght@700&family=Satisfy&family=Work+Sans&family=Ysabeau+Office&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Dancing+Script:wght@600&family=Karla:wght@300&family=Mulish:wght@200&family=Nunito:wght@300&family=Oswald:wght@200&family=Roboto:wght@300&family=Rowdies:wght@700&family=Satisfy&family=Work+Sans&family=Ysabeau+Office&display=swap');
+* {
+margin: 0;
+padding: 0;
+font-family: 'Ysabeau Office', sans-serif;
+box-sizing: border-box;
+scroll-behavior: smooth;
+list-style: none;
+text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+header .top-head {
+position: relative;
+width: 100%;
+height: 10vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+padding: 0 10px;
+box-shadow: 0 0.5rem 4rem rgba(165, 158, 158, 0.175);
+background-image: linear-gradient(29deg, #dd553d 30px ,#d1c630 50%, #58e221 100%);
+}
+
+/* Mummy Ghana*/
+header .first-text{
+    font-size: 25px;
+}
+
+/* 'Mummy' Ghana*/
+header .first-text span{
+    color: rgb(255, 254, 249);
+}
+
+
+
+
+.search-btn input{
+    width: 200px;
+    background: transparent;
+    flex: 1;
+    outline: none;
+    padding: 10px 12px;
+    color: rgb(0, 0, 0);
+    border: 0;
+    font-size: 15px;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+/* search button*/
+.search-btn {
+    position: relative;
+    width: 250px;
+    height: 35px;
+    background-color: #f5efef;  
+    border-radius: 20px;
+}
+
+.search-btn button {
+    position: relative;
+    width: 50px;
+    height: 80%;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: dodgerblue;
+    margin-left: -30px;
+    margin-bottom: -20px;
+    font-size: 15px;
+    color: white;
+    padding: auto 0;
+    outline: none;
+}
+
+/* search button logo*/
+.search-btn .icon {
+    font-size: 15px;
+}
+
+/* header links */
+.after-header-links {
+    position: sticky;
+    top: 0;
+    transition: all 0.4s;
+    z-index: 1000;
+}
+.after-header-links ul{
+position: relative;
+height: 6vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.after-header-links li a{
+display: flex;
+margin: 0 19px;
+font-weight: 500px;
+color: black;
+font-size: 17px;
+
+}
+
+ .after-header-links ul li a:hover {
+    color: rgb(179, 148, 48);
+} 
+
+.brevity {
+    position:relative;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    justify-content: space-between;
+}
+
+.hello {
+    
+    width: 70%;
+    height: 80vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.intro-Ghana {
+    text-align: left;
+}
+
+.intro-Ghana  h1{
+ font-family: 'Crimson Text', serif;;
+ font-size: 40px;
+}
+
+.cite {
+    font-size: 20px;
+    color: rgb(30, 32, 34);
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+.discover {
+    font-size: 25px;
+}
+
+.hello .hello-link  {
+    height: 40px;
+    width: 150px;
+}
+
+.hello .hello-link a {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid dodgerblue;
+}
+
+
+.hello-link a:hover {
+background-color: dodgerblue;
+border: transparent;
+color: #ffffff;
+}
+
+.hello .hello-img img{
+   border-radius: 20px;
+}
+
+.story-about {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #f9faf9;
+}
+
+.content-text-1 {
+    position: relative;
+    width: 70%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.Ghana-flag img {
+    border-radius: 20px;
+    width: 600px;
+}
+
+.history-about-ghana {
+    width: 400px;
+}
+
+.history-about-ghana h1{
+    font-weight: 300px;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.about-ghana-content p {
+    margin-bottom: 16px;
+    padding: 20px 0;
+    font-size: 17px;
+    color: black;
+    font-weight: 500px;
+}
+
+
+
+.content-text-1 .read-more-history {
+    width: 120px;
+    height: 6vh;
+    border: 2px solid dodgerblue;
+    
+}
+
+.content-text-1 .read-more-history a {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent
+}
+
+.content-text-1 .read-more-history a:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
